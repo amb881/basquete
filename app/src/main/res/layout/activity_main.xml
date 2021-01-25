@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F49F44"
-    tools:context=".MainActivity" >
+    android:background="@color/fundo"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/username_editText_register"
@@ -14,32 +14,32 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:background="@color/white"
         android:ems="10"
         android:hint="@string/username"
+        android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/email_editText_register"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:background="@color/white"
         android:ems="10"
         android:hint="@string/email"
+        android:inputType="textEmailAddress"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/username_editText_register"
         app:layout_constraintStart_toStartOf="@+id/username_editText_register"
-        app:layout_constraintTop_toBottomOf="@+id/username_editText_register"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/username_editText_register" />
 
     <EditText
         android:id="@+id/password_editText_register"
@@ -49,13 +49,13 @@
         android:background="@color/white"
         android:ems="10"
         android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/username_editText_register"
         app:layout_constraintStart_toStartOf="@+id/username_editText_register"
-        app:layout_constraintTop_toBottomOf="@+id/email_editText_register"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/email_editText_register" />
 
     <Button
         android:id="@+id/register_button_register"
@@ -72,7 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Already have an account?"
+        android:text="@string/already_have_an_account"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
