@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val haveAccount: TextView = findViewById(R.id.account_textView) as TextView
+        val haveAccount: TextView = findViewById(R.id.haveAccount_textView) as TextView
         haveAccount.setOnClickListener{
             //abrir página do login
             val intent = Intent(this, LoginActivity::class.java)
