@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473904567871",
+    "project_id": "kotlinbasquete",
+    "storage_bucket": "kotlinbasquete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473904567871:android:8f321173fe8bf51e340a8a",
+        "android_client_info": {
+          "package_name": "com.andre.basquete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473904567871-fai2kn5hji328tf1tn443bf58hd8q0cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAszDeRZRdZbLZb76WdhhkZoqWnaNKBklE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473904567871-fai2kn5hji328tf1tn443bf58hd8q0cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
